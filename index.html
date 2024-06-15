@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Repetition App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="container">
+            <div id="timer">
+                <div id="time">
+                    <span id="countdownDisplay">00:00</span>
+                </div>
+            </div>
+            <div id="inputs">
+                <label for="VoiceComboBox" class="inputLabel">Select a voice:</label>
+                <select id="VoiceComboBox" class="inputField"></select>
+                <label for="TextBoxInput" class="inputLabel">Enter text here:</label>
+                <textarea id="TextBoxInput" class="inputField" rows="4" placeholder="Enter text here..."></textarea>
+                
+                <label for="RepeatCountInput" class="inputLabel">Enter repeat count:</label>
+                <input type="number" id="RepeatCountInput" class="inputField" placeholder="Enter repeat count...">
+                
+                <label class="inputLabel">Enter countdown time:</label>
+                <div class="inputGroup horizontal">
+                    <input type="number" id="CountdownMinutesInput" class="inputField" placeholder="Minutes">
+                    <input type="number" id="CountdownSecondsInput" class="inputField" placeholder="Seconds">
+                </div>
+                
+
+            </div>
+            <div id="buttons">
+                <button id="SpeakButton">Speak</button>
+                <button id="StopButton">Stop</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

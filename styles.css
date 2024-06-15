@@ -1,0 +1,99 @@
+#container {
+    border: 1px solid #333;
+    border-radius: 20px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px 50px;
+    text-align: center;
+    background: #333;
+}
+
+#timer {
+    color: #0c0;
+    font-size: 50px;
+    margin: 10px auto;
+    border: 5px solid #0c0;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#time {
+    margin-top: 70px;
+    z-index: 1;
+    position: relative;
+}
+
+#buttons button#StopButton {
+    background: rgb(236, 40, 5);
+}
+
+#buttons button {
+    background: #4da6ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    margin: 20px 15px;
+    font-size: 14px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+
+
+.inputLabel {
+    font-size: 14px;
+    font-weight: bold;
+    color: #e4dddd;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* .inputGroup {
+    margin-bottom: 0px;
+} */
+
+.inputGroup.horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#CountdownSecondsInput{
+    width: 80px;
+    display: block;
+    margin-right: 80px;
+}
+#CountdownMinutesInput{
+    width: 80px;
+    display: block;
+    margin-left: 80px;
+}
+
+.inputField {
+    padding: 10px;
+    background-color: #f8f5f5;
+    border: 1px solid #6d6d6d;
+    border-radius: 5px;
+    font-size: 16px;
+    width: calc(40% - 0px);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+textarea.inputField {
+    width: calc(100% - 30px);
+    /* height: 100px; */
+}
+
+
